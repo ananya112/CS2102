@@ -1,0 +1,15 @@
+{
+  "name": "IntelliJ IDEA",
+  "version": "2019.2.3",
+  "buildNumber": "192.6817.14",
+  "productCode": "IC",
+  "svgIconPath": "bin/idea.svg",
+  "launch": [
+    {
+      "os": "Windows",
+      "launcherPath": "bin/idea64.exe",
+      "javaExecutablePath": "jbr/bin/java.exe",
+      "vmOptionsFilePath": "bin/idea64.exe.vmoptions"
+    }
+  ]
+}

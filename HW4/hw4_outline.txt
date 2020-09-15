@@ -1,0 +1,71 @@
+
+check to see if the root is the smallest element of the tree
+
+isHeap(){ 
+
+is left subtree a heap 
+is right subtree a heap 
+
+recursion
+
+}
+
+boolean allgreaterThan(root){
+	
+	return root < this.data && leftSubtree.allGreaterThan(root) && root && rightSubTree.allGreaterThan(root)
+
+}
+
+
+Examples:
+empty binary tree  ->  isHeap() should return true 
+
+5
+isHeap() = true
+
+  5
+ /
+7
+5<= 5 true 
+move to left subtree 
+5< = 7
+move to right subtree
+right subtree is empty, so return true 
+
+
+
+    5
+   /
+  7
+ /
+4
+
+5<= 5 true 
+5<= 7 true (left subtree)
+right subtree is empty, so true 
+5<= 4 false (left subtree of left subtree)
+right subtree of left subtree is empty, so true 
+
+
+
+    5
+   /
+  7
+ /
+9
+
+5<= 5 true 
+5<= 7 true (left subtree)
+right subtree is empty, so true 
+5<= 9 true (left subtree of left subtree)
+right subtree of left subtree is empty, so true
+
+call isHeap on left subtree
+7<=9 true (left subtree)
+right subtree is empty, so true 
+
+
+
+
+
+

@@ -1,0 +1,35 @@
+Logistics
+Quiz 4 will be on Friday, November 22 at the beginning of class and will last about 20 minutes.
+Expect to be asked to read and/or write Java code and/or provide short answers or explanations.
+Please don't hesitate to use staff office hours, MASH, tutoring, the IA discussion forum, or your classmates if you need help reviewing any of the concepts.
+You are allowed one hand-written 8.5" x 11" double-sided sheet of notes. Typed notes are not allowed.
+Study Guide
+The list below is tentative and subject to change.
+
+Objects
+Classes
+Methods
+Fields
+Instantiation 
+Know how the following data structures work:
+Sets
+BSTs
+Heaps
+AVL trees (you do not need to rebalance an AVL tree, but you should know what one looks like)
+Stacks
+Queues
+LinkedLists
+ArrayLists
+Know how to write a class to hide a data structure (such as the Stack and Queue classes we wrote on Monday)
+Big-O Notation
+Lists and loops
+Linked lists
+Element-based for loops
+Using Interface and abstract data types in lists
+Accumulator methods
+Basic built-in LinkedList methods (add(), addFirst(), size())
+Encapsulation and access modifiers
+When to use "public" vs "private" and what they mean
+Why encapsulation is important from a security standpoint
+How to rewrite code to improve encapsulation
+== vs .equals
